@@ -2,10 +2,17 @@
   "disabled": false,
   "bindings": [
 	{
-    	"schedule": "0 */5 * * * *",
+    	"schedule": "*/10 * * * * *",
     	"name": "myTimer",
     	"type": "timerTrigger",
     	"direction": "in"
-	}	
+	},
+	{
+      	"name": "myQueue",
+      	"queueName": "vv-scaleoutqueue",
+      	"connection": "Endpoint=sb://vv-scaleout.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=P4eABj10GZafFUDLUBoqG2kNlDbKN2kpwsypEWccX9M=",
+      	"type": "queue",
+      	"direction": "out"
+    	}	
   ]
 }
