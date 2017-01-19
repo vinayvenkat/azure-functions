@@ -10,7 +10,7 @@
 	{
       	"name": "myQueue",
       	"queueName": "vv-scaleoutqueue",
-      	"connection": "Endpoint=sb://vv-scaleout.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=P4eABj10GZafFUDLUBoqG2kNlDbKN2kpwsypEWccX9M=",
+	"connection": "Endpoint=sb://vvsvc2.servicebus.windows.net/;SharedAccessKeyName=custom;SharedAccessKey=gcWX3/nn4bqPS0LIZdUC7w5Ql39HPLvIYPDj9McD0E0=;EntityPath=vvpanq"
       	"type": "serviceBus",
       	"direction": "out"
     	}	
