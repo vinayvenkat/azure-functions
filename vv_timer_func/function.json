@@ -9,9 +9,9 @@
 	},
 	{
       	"name": "myQueue",
-      	"queueName": "vv-scaleoutqueue",
-	"connection": "Endpoint=sb://vvsvc2.servicebus.windows.net/;SharedAccessKeyName=custom;SharedAccessKey=gcWX3/nn4bqPS0LIZdUC7w5Ql39HPLvIYPDj9McD0E0=;EntityPath=vvpanq",
-      	"type": "serviceBus",
+      	"queueName": "vvpanq",
+	"connection": "DefaultEndpointsProtocol=http;AccountName=function493cc0b4a586;AccountKey=7yziNYE1aXM7YFHWrkjIqaSbZfYlvCN5cb/YW5kvlYTsD0KogpOzw2Qf65pyQ+399wzLyJv12aiub45BqvwpTw==",
+      	"type": "queue",
       	"direction": "out"
     	}	
   ]
